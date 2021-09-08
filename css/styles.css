@@ -175,8 +175,33 @@ p {
     padding: 5% 2%;
 }
 
-@media (max-width: 1028px) {
-    .title-img {
-        position: static;
-    }
+/* CTA section */
+
+#cta {
+    padding: 4% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+#cta > h3 {
+    font-weight: 800;
+    font-size: 3.3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* Footer section */
+
+#footer {
+    padding: 2% 10%;
+    text-align: center;
+}
+
+.footer-icons {
+    padding-bottom: 2%;
+}
+
+.footer-icon {
+    color: #000;
+    padding: 1%;
 }
