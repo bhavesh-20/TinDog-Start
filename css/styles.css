@@ -39,7 +39,7 @@ p {
 }
 
 .container-fluid {
-    padding: 3% 15% 5%;
+    padding: 3% 15%;
 }
 
 /* Navbar section */
@@ -68,24 +68,53 @@ p {
     margin: 5% 3% 5% 0;
 }
 
-.title-position {
-    position: relative;
-}
-
-
 /* Iphone doggy image */
 .title-img {
     width: 60%;
     transform: rotate(25deg);
-    position: absolute;
+}
+
+@media screen and (min-width: 1350px) {
+    #title {
+        height: 36.5rem;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #title{
+        height: 35.5rem;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 1266px) {
+    #title {
+        height: 35rem;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .title-img {
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 989px) {
+
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        transform: rotate(0deg);
+    }
 }
 
 /* Features Sections */
 #features {
     padding: 7% 15%;
     background-color: #fff;
-    position: relative;
-    z-index: 1;
 }
 
 .feature {
@@ -144,4 +173,10 @@ p {
 
 .pricing-column {
     padding: 5% 2%;
+}
+
+@media (max-width: 1028px) {
+    .title-img {
+        position: static;
+    }
 }
